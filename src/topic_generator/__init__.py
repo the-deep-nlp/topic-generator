@@ -1,1 +1,1 @@
-from .topic import TopicModeling
+from .topic import TopicGenerator

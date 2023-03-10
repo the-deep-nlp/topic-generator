@@ -55,3 +55,5 @@ def calc_coherence(model, data, topics):
                                      dictionary=dictionary,
                                      coherence='c_v')
     return coherence_model.get_coherence()
+
+

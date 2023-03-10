@@ -4,7 +4,7 @@ PACKAGE_VERSION = "0.1"
 MINOR_RELEASE = "0"
 
 setup(
-    name="topic_modeling",
+    name="topic_generator",
     version=f"{PACKAGE_VERSION}.{MINOR_RELEASE}",
     packages=find_packages(where="src"),  # include all packages under src
     package_dir={"": "src"},

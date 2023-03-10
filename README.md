@@ -1,3 +1,8 @@
+### installation
+
+`pip install git+https://github.com/the-deep-nlp/topic-generator`
+
+
 ### Usage
 
 simple topic modeling utils based on BertTopic

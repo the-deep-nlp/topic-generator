@@ -17,7 +17,7 @@ setup(
         "umap-learn",
         "hdbscan",
         "spacy",
-        "gensim"
+        "gensim",
         "scikit-learn"
         ],
 

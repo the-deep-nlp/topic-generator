@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
 
     install_requires=[
-        "numba==0.56.4"
+        "numba==0.56.4",
         "bertopic",
         "umap-learn",
         "hdbscan",

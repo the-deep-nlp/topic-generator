@@ -6,9 +6,9 @@ from umap import UMAP
 from typing import Union
 from bertopic import BERTopic
 
-from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
-from spacy.lang.en.stop_words import STOP_WORDS as en_stop
-from spacy.lang.es.stop_words import STOP_WORDS as es_stop
+from .stopwords_fr import STOP_WORDS_FR as fr_stop
+from .stopwords_en import STOP_WORDS_EN as en_stop
+from .stopwords_es import STOP_WORDS_ES as es_stop
 from sklearn.feature_extraction.text import CountVectorizer
 
 from .hdbscan_expt import HDBSCAN_MODEL

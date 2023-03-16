@@ -11,14 +11,12 @@ setup(
     include_package_data=True,
 
     install_requires=[
-        "numpy",
-        "pandas",
+        "numba==0.56.4"
         "bertopic",
         "umap-learn",
         "hdbscan",
-        "spacy",
-        "gensim",
-        "scikit-learn"
+        "scikit-learn",
+        "torch@http://download.pytorch.org/whl/cpu/torch-1.9.1%2Bcpu-cp38-cp38-linux_x86_64.whl"
         ],
 
     author="",

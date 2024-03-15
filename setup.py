@@ -16,7 +16,7 @@ setup(
         "umap-learn",
         "hdbscan",
         "scikit-learn",
-        "torch@http://download.pytorch.org/whl/cpu/torch-1.9.1%2Bcpu-cp38-cp38-linux_x86_64.whl"
+        "torch@http://download.pytorch.org/whl/cpu/torch-2.1.0%2Bcpu-cp310-cp310-linux_x86_64.whl#sha256=5077921fc2b54e69a534f3a9c0b98493c79a5547c49d46f5e77e42da3610e011"
         ],
 
     author="",

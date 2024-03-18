@@ -10,8 +10,8 @@ class HDBSCAN_MODEL:
         ).fit(embeddings)
 
         self.params_dist = {
-            "min_cluster_size": [5, 7, 10],
-            "min_samples": [1, 3, 5, 7, 10],
+            "min_cluster_size": [5, 6, 7, 10, 15, 20, 30, 50],
+            "min_samples": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
             "cluster_selection_method": ["eom"],
             "metric": ["euclidean", "manhattan"]
         }

@@ -2,6 +2,7 @@ import re
 import numpy as np
 
 def preprocess(text):
+    """ Preprocess the texts """
     text = np.str_(text)
     text = text.replace('\\n', '')
     text = text.replace('\\', '')
@@ -21,4 +22,4 @@ def preprocess(text):
     text = text.replace('\t', '')
     text = text.replace('\n', '')
 
-    return text
+    return text.strip()
